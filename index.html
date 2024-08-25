@@ -13,21 +13,20 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: rgb(0, 0, 0);
+            background-color:  rgb(0, 0, 0);
             background-size: cover;
             background-position: center;
         }
         .profile-card {
-            background-color: rgba(255, 255, 255, 0.85); /* ایجاد یک پس‌زمینه شفاف برای محتوای داخل */
+            background-color: rgb(255, 255, 255); /* ایجاد یک پس‌زمینه شفاف برای محتوای داخل */
             border-radius: 15px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            width: 90%; /* عرض باکس اصلی برابر 90% صفحه */
+            width: 95%; /* عرض باکس اصلی برابر 90% صفحه */
             max-width: 1000px; /* حداکثر عرض برای باکس */
             height: 100vh; /* ارتفاع باکس اصلی برابر 100% ارتفاع صفحه */
             display: flex;
             flex-direction: column;
-            text-align: center;
-            overflow: hidden;
+            text-align: center; 
             position: relative;
         }
         .profile-card img.cover {
@@ -40,8 +39,8 @@
             height: 120px;
             border-radius: 50%;
             position: absolute;
-            top: 80%; /* جابجایی دایره به پایین برای قرار گرفتن بالای نوشته‌ها */
-            left: 20%;
+            top: 60%; /* جابجایی دایره به پایین برای قرار گرفتن بالای نوشته‌ها */
+            left: 50%;
             transform: translate(-50%, -50%);
             overflow: hidden;
         }
@@ -55,8 +54,9 @@
             flex-grow: 1; /* تنظیم انعطاف‌پذیری برای محتوا */
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            height: 30%; /* تنظیم ارتفاع بخش سفید به 40% */
+            justify-content: flex-end; /* تنظیم موقعیت نوشته‌ها به پایین */
+            height: 40%; /* تنظیم ارتفاع بخش سفید به 40% */
+            margin-top: 20px; /* تنظیم فاصله از بالا */
         }
         .profile-details h2 {
             margin: 0;
@@ -93,9 +93,9 @@
             <img src="me.JPG" alt="Profile Photo">
         </div>
         <div class="profile-details">
-            <h2>Neel Litoriya</h2>
-            <p>Photographer</p>
-            <p>Indore, India</p>
+            <h2>Ashkan Dam </h2>
+            <p>Chevy</p>
+            <p>Nova</p>
         </div>
         <div class="social-links">
             <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
